@@ -1,50 +1,115 @@
-![Screenshot](./preview/screenshot.png)
+# 🌙 Dreamscape AI
 
-<h4 align="center">Sleep Cycle Alarm is a free material-designed Android app which helps waking up during a light sleep, it also is ad-free and open source under GPLv3 license.</h4>
+AI-powered sleep optimization platform built on Solana blockchain.
 
-<p align="center">
-  <a href="https://travis-ci.org/letelete/Sleep-Cycle-Alarm">
-    <img src="https://travis-ci.org/letelete/sleep-cycle-alarm.svg?branch=master"
-      alt="Build Status"></a>
-  <a href="https://codecov.io/gh/letelete/Sleep-Cycle-Alarm">
-    <img src="https://codecov.io/gh/letelete/Sleep-Cycle-Alarm/branch/master/graph/badge.svg"
-      alt="Coverage Status"></a>
-  <a href="https://www.codacy.com/app/letelete/Sleep-Cycle-Alarm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=letelete/Sleep-Cycle-Alarm&amp;utm_campaign=Badge_Grade">
-    <img src="https://api.codacy.com/project/badge/Grade/33b08e7d256b4b348513f083d2586b76"
-      alt="Clean Code Status"></a>
-  <a href="">
-    <img src="https://tokei.rs/b1/github/letelete/Sleep-Cycle-Alarm"
-      alt="Lines of Code"></a>
-  <a href="">
-    <img src="https://img.shields.io/badge/android-%3E%3D%205.0%20-brightgreen.svg"
-        alt="Platform Support"></a>
-  <a href="https://discord.gg/invite/fgGzude">
-    <img src="https://img.shields.io/discord/348753044692926465.svg?logo=discord"
-        alt="Chat on Discord"></a>
-</p>
+## 🚀 Overview
 
-#### Features
+Dreamscape AI combines artificial intelligence with blockchain technology to revolutionize sleep optimization. Our platform offers personalized meditation generation, advanced sleep analytics, and NFT-based rewards on the Solana blockchain.
 
-* Custom alarm management system
-* Alarms customatization
-* Automatically cleans up used up alarms
-* Adds new alarm with only two taps from user
-* Shows list of hours to set alarm at to wake up with light sleep cycle
-* Shows list of hours to go to sleep at when user wants to wake up at specific hour
-* Dark and light theme
-* Informs user about sleep duration and quality of specific alarm
-  
-#### Dependencies
+## ✨ Features
 
-* [Butterknife](https://github.com/JakeWharton/butterknife)
-* [Realm](https://github.com/realm/realm-java)
-* [Android-Support-Preference-V7-Fix](https://github.com/Gericop/Android-Support-Preference-V7-Fix)
-* [Joda-time](https://github.com/JodaOrg/joda-time)
-* [EventBus](https://github.com/greenrobot/EventBus)
+- **🧠 AI Meditation Generation**: Personalized guided meditations adapting to sleep patterns
+- **📊 Advanced Analytics**: Comprehensive sleep tracking and analysis
+- **📱 Smart Dream Journal**: AI-powered dream pattern recognition
+- **🎁 NFT Integration**: Reward system and premium feature access
+- **⛓️ Solana Integration**: High-speed, low-cost transactions
 
-#### Contributing
+## 🛠️ Tech Stack
 
-You can trace the status of known issues [here](https://github.com/letelete/Sleep-Cycle-Alarm/issues),
-also feel free to file a new issue (helpful description, screenshots and logcat are appreciated), or join to my discord <a href="https://discord.gg/invite/fgGzude">
-    <img src="https://img.shields.io/discord/348753044692926465.svg?logo=discord"
-        alt="Chat on Discord"></a> and send a message on #programming text channel if you have any questions.
+- HTML5/TailwindCSS for frontend styling
+- Solana Web3.js for blockchain integration
+- React for interactive components
+- Anchor framework for Solana programs
+
+## 📂 Project Structure
+
+```
+dreamscape-ai/
+├── pages/
+│   ├── index.html        # Landing page
+│   ├── features.html     # Features showcase
+│   ├── analytics.html    # Analytics dashboard
+│   ├── docs.html         # Documentation
+│   └── roadmap.html      # Development roadmap
+├── program/
+│   ├── src/             # Solana program source
+│   └── tests/           # Program tests
+└── sdk/                 # JavaScript SDK
+```
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/dreamscape-ai/dreamscape
+   cd dreamscape
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Solana**
+   ```bash
+   # Set up your Solana wallet and network
+   solana config set --url https://api.mainnet-beta.solana.com
+   ```
+
+4. **Run development server**
+   ```bash
+   npm run dev
+   ```
+
+### Key Functions:
+- User account initialization
+- Meditation session management
+- Sleep data analytics
+- NFT minting and rewards
+
+## 🔗 Important Links
+
+- [Website](https://dreamscapeai.xyz)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🛣️ Roadmap
+
+- **Q1 2025**: Mainnet Preparation
+  - Smart contract audit
+  - Core AI model training
+  - Token launch
+
+- **Q2 2025**: Platform Launch
+  - Mainnet deployment
+  - Mobile app beta
+  - Initial staking program
+
+- **Q3 2025**: Feature Expansion
+  - Advanced analytics
+  - NFT marketplace
+  - Governance launch
+
+- **Q4 2025**: Ecosystem Growth
+  - Developer SDK
+  - API marketplace
+  - Partner program
